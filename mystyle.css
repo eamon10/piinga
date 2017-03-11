@@ -1,0 +1,128 @@
+/* Mystyle.css */
+
+/* 
+ * It's not recommend you edit the code between the Start Position CSS and End Position CSS comments unless you really know what
+ * you're doing.  If you do, you could break the layout, and you could experience a lot of wacky behaviour.
+ * 
+ **/
+ 
+/* Pseudo-Classes for step 17.
+ * There is 2 separate classes so the sidebar and in-text
+ * links do not look the same, also so they suite the style of the website better. */
+ 
+/* Pseudo-Classes for styling links in side bar */
+a.sbar {color:white;}
+a.sbar:link  {text-decoration: none; color: #011C12;}
+a.sbar:visited {text-decoration: none; color: #011C12;}
+a.sbar:hover {text-decoration: none; color: #A88759;}
+a.sbar:active {text-decoration: none; color: #A88759;}
+
+/* Pseudo-Classes for styling links in main text */
+a.body {color:black;}
+a.body:link {text-decoration: none; color: black;}
+a.body:visited {text-decoration: none; color: black;}
+a.body:hover {text-decoration: underline; color: #A88759;}
+a.body:active {text-decoration: none; color: #A88759;}
+
+/* changing style of horizontal rule line */
+hr {
+	border-color: #001C12
+	}
+	
+/* centring table or image for step 15 */
+.tablecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.imagecenter { 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+
+body { 
+	/*Start Position CSS*/
+	margin: 0;
+	padding: 1em;
+	/*End Position CSS*/
+}
+
+.header { 
+	
+	/*Start Position CSS*/
+	height: 54px; 	
+	border-bottom: 1px solid #013020; 
+	padding: 1em;
+	/*End Position CSS*/	
+
+	background-image:url(headerbg.jpg);	
+	background-repeat: repeat-x;
+		
+	text-align: center;	
+	font: bold 3em verdana;
+	color: #033825;	
+}
+
+.maintext { 
+	
+	/*Start Position CSS*/
+	width: 640px;	
+	float: left;
+	margin: 0;
+	padding: 1em;	
+	border-left: 1px solid #013020;
+	/*End Position CSS*/	
+	background-color: #F4F0EB;
+}
+
+.links { 
+
+	/*Start Position CSS*/
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding: 1em;
+	bottom: 0px;
+	/*End Position CSS*/	
+	background-color: #1D4E42; 
+	
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	color: #013020;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	color: #011C12;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size:20px;
+	color: #91734E;
+}
+
+
+
+
+.container { 
+	
+	/*Start Position CSS*/
+	width: 855px;
+	margin: auto;
+	text-align: left;
+	border: 1px solid #013020; 
+	/*End Position CSS*/
+}
+
+.footer {
+	clear: both;
+}
